@@ -26,10 +26,10 @@
         <nav>
           <ul class="site-nav list">
             <li class="item">
-              <a href="./index.html" class="link">Студія</a>
+              <a href="./index.html" class="link current">Студія</a>
             </li>
             <li class="item">
-              <a href="./portfolio.html" class="link current">Портфоліо</a>
+              <a href="./portfolio.html" class="link">Портфоліо</a>
             </li>
             <li class="item"><a href="" class="link">Контакти</a></li>
           </ul>
@@ -37,13 +37,21 @@
 
         <!-- Contacts -->
         <ul class="contacts-nav list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link"
-              >info@devstudio.com</a
+          <li class="contacts-item item">
+            <a href="mailto:info@devstudio.com" class="contacts-link link">
+              <svg class="item-icon" width="16" height="12">
+                <use href="./img/icons.svg#mail"></use>
+              </svg>
+              info@devstudio.com</a
             >
           </li>
-          <li class="item">
-            <a href="tel:+38(096)111-11-11" class="link">+38 096 111 11 11</a>
+          <li class="contacts-item item">
+            <a href="tel:+38(096)111-11-11" class="contacts-link link">
+              <svg class="item-icon" width="10" height="16">
+                <use href="./img/icons.svg#phone"></use>
+              </svg>
+              +38 096 111 11 11</a
+            >
           </li>
         </ul>
       </div>
@@ -53,7 +61,6 @@
     <main>
       <section class="porfolio section">
         <div class="container">
-
           <!-- Filter -->
           <div class="filter">
             <h1 class="filter-title visually-hidden">Портфолио</h1>
@@ -221,26 +228,62 @@
 
     <!-- Footer -->
     <footer class="page-footer">
-      <div class="container">
-        <a class="logo" href="./index.html">
-          Web<span class="footer-logo">Studio</span></a
-        >
-        <address class="address">
-          <a
-            class="location-footer"
-            href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwiA3O_IqY_7AhVwl4sKHR75A3gQ8gF6BAgYEAE"
-            target="_blank"
-            rel="noopener noreferrer"
+      <div class="footer-container container">
+        <div class="footer-location">
+          <a class="logo" href="./index.html">
+            Web<span class="footer-logo">Studio</span></a
           >
-            м. Київ, пр-т Лесі Українки, 26</a
-          >
-          <a class="contact-footer" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-          <a class="contact-footer" href="tel:+38(096)111-11-11"
-            >+38 096 111 11 11</a
-          >
-        </address>
+          <address class="address">
+            <a
+              class="location-footer"
+              href="https://www.google.com/maps/place/%D0%B1%D1%83%D0%BB%D1%8C%D0%B2%D0%B0%D1%80+%D0%9B%D0%B5%D1%81%D1%96+%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D0%BA%D0%B8,+26,+%D0%9A%D0%B8%D1%97%D0%B2,+02000/data=!4m2!3m1!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0?sa=X&ved=2ahUKEwiA3O_IqY_7AhVwl4sKHR75A3gQ8gF6BAgYEAE"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              м. Київ, пр-т Лесі Українки, 26</a
+            >
+            <a class="contact-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+            <a class="contact-footer" href="tel:+38(096)111-11-11"
+              >+38 096 111 11 11</a
+            >
+          </address>
+        </div>
+
+        <div class="footer-social">
+          <p class="footer-title">приєднуйтесь</p>
+          <ul class="social-list list">
+            <li class="social-item">
+              <a href="#" class="social-link footer link">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link footer link">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link footer link">
+                <svg class="social-icon" width="10" height="20">
+                  <use href="./img/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="#" class="social-link footer link">
+                <svg class="social-icon" width="20" height="20">
+                  <use href="./img/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
