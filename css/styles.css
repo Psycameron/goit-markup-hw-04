@@ -290,16 +290,17 @@ p {
 
 .team-img {
   display: flex;
-  margin-bottom: 30px;
 }
 
 .team-list .item {
-  padding-bottom: 30px;
-
   background-color: var(--wtite-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+}
+
+.team-descr {
+  padding: 30px 0;
 }
 
 .team-subtitle {
@@ -486,9 +487,14 @@ p {
   text-decoration: none;
 }
 
+.location-footer:hover,
+location-footer:focus {
+  color: var(--accent-text-color);
+}
+
 .contact-footer:hover,
 .contact-footer:focus {
-  color: var(--secondary-bgc);
+  color: var(--accent-text-color);
 }
 
 .footer-title {
@@ -512,13 +518,12 @@ p {
 
 .social-link.footer {
   background-color: var(--footer-icon-color);
-  color: var(--primary-text-color);
+  color: var(--wtite-color);
 }
 
 .social-link:hover,
 .social-link:focus {
   background-color: var(--accent-text-color);
-  color: var(--wtite-color);
 }
 
 /* Portfolio-page */
